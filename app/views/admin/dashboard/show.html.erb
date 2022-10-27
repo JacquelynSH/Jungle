@@ -1,2 +1,22 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Product Tracking:</h1>
+<div class="panel panel-default items">
+<table class="table table-bordered">
+  <tr>
+    <th>Product Count</th>
+    <th>Produce Category Count</th>
+    
+  </tr>
+  <tr>
+    <td>Total: <%= @count_products %></td>
+    <td>Total: <%= @count_category %></td>
+  </tr>
+    <tr>
+    <td><%= link_to "Click here to view available product", "/" %></td>
+    <td>
+    <%= link_to "Evergreens", "categories/1" %>
+     <%= link_to "Shrubs", "categories/2" %>
+      <%= link_to "Trees", "categories/3" %>
+    </td>
+  </tr>
+</table>
+</div>
