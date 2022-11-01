@@ -1,0 +1,42 @@
+// Place all the styles related to the sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.nav-login {
+  color: white;
+}
+
+.nav-login-link-color {
+  color:  #f38792;
+}
+
+.nav-login-link-color:hover {
+  color: white;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+}
+.login-form {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  width: 14em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.login-button {
+  font-family: "Montserrat";
+  background-color: rgba(0, 130, 29, 0.7);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
