@@ -15,12 +15,13 @@
   color: white;
 }
 
-.login-page {
-  display: flex;
-  justify-content: center;
+.login-title {
+  color: rgba(0, 130, 29, 0.7);
+  padding-top: 1em;
 }
 
 .login-form {
+  color: rgba(0, 130, 29, 0.7);;
   font-family: "Montserrat";
   display: flex;
   flex-direction: column;

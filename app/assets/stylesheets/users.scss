@@ -2,8 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com
 
+.signup-title {
+  color: rgba(0, 130, 29, 0.7);
+  padding-top: 1em;
+}
 
 .signup-form {
+  color: rgba(0, 130, 29, 0.7);;
+  font-family: "Montserrat";
   font-family: "Montserrat";
   display: flex;
   flex-direction: column;
